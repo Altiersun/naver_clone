@@ -15,7 +15,6 @@ body {
 #id {
     width: 490px;
     height: 45px;
-    border: none;
     font-size: 16px;
     margin-left: 5px;
 }
@@ -33,19 +32,8 @@ body {
 #password {
     width: 490px;
     height: 45px;
-    border: none;
     font-size: 16px;
     margin-left: 5px;
-}
-
-#loginpass {
-    border: 0.9px solid black;
-}
-
-.login {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
 }
 
 .login {
@@ -63,5 +51,9 @@ body {
 }
 
 input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="password"]:focus {
     outline: none;
 }
